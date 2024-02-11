@@ -114,7 +114,6 @@
     function budynekwypisz(budynek)
     {
         document.getElementById('info').innerHTML = budynek.nazwa+" $: "+skracanie(budynek.zarobki);
-        document.getElementById('infoupdate').innerHTML = "Cena ulepszenia: "+skracanie(cenaupdate);
         /*var rodzic = document.getElementById('update');
         var update = document.createElement('input');
         update.type = 'button';
@@ -391,7 +390,7 @@
             else if(gracz.poziom == 3)
             {
                 surowiec.nazwa = 'Zloto'
-                surowiec.mnoznik = 10;
+                surowiec.mnoznik = 15;
                 budynek1.zdjecie = 'files/kopalniaz1.png';
                 budynek2.zdjecie = 'files/kopalniaz2.png'; 
                 budynek3.zdjecie = 'files/kopalniaz3.png';
@@ -408,7 +407,7 @@
             else if(gracz.poziom == 4)
             {
                 surowiec.nazwa = 'Diament'
-                surowiec.mnoznik = 10;
+                surowiec.mnoznik = 20;
                 budynek1.zdjecie = 'files/kopalniad1.png';
                 budynek2.zdjecie = 'files/kopalniad2.png'; 
                 budynek3.zdjecie = 'files/kopalniad3.png';
@@ -429,6 +428,7 @@
                 gracz.poziom = 'wygrana';
                 window.alert("WYGRAŁEŚ!!!!");
                 surowiec.mnoznik = 0;
+                return 0;
 
             }
             blokada = true;
