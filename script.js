@@ -1,15 +1,3 @@
-/* TO DO
-    1. /pauza/odpauza
-    2. css i wyglad
-    3. kolejne poziomy
-    4. klasa surowiec
-    5. /paski dla kazdego budynku
-    6. ?moze wrzuc funkcje w metody klasy
-    7. Ekran startu i ekran zwyciestwa
-    8. +/- NOWE ZARABIANIE!!!!!!!!!!!!!
-    *9. Power upy
-    10. /UPDATE NAPRAWWWW
-    */
     surowiec =
     {
         nazwa: 'Drewno',
