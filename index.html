@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="tabela">
+        <tr>
+            <td colspan="4"><p id="poziom"></p></td>
+        </tr>
+        <tr>
+            <td class="budynki"><div id="progress1">
+                <div id="bar1"></div></div>
+                <input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek1,this.id)' id="1">
+                </td>
+            <td class="budynki"><div id="progress2"><div id="bar2"></div></div><input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek2,this.id)' id="2">
+                </td>  
+            <td class="budynki"><div id="progress3"><div id="bar3"></div></div><input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek3,this.id)' id="3">
+                </td>
+            <td class="infor"><p>Zarobki:<p id="zarobki"></p></p></td>
+        </tr>
+        <tr>
+            <td class="budynki"><div id="progress4"><div id="bar4"></div></div><input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek4,this.id)' id="4">
+                </td>
+            <td class="budynki"><div id="progress5"><div id="bar5"></div></div><input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek5,this.id)' id="5">
+                </td>
+            <td class="budynki"><div id="progress6"><div id="bar6"></div></div><input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek6,this.id)' id="6">
+                </td>
+            <td class="infor"><p id="info"></p><br>
+                <!-- <p id="infoupdate"></p><p id="update"></p> -->
+                <div id="cenainfo">Cena kolejnego budynku:<p id="cena"></p></div></td>
+        </tr>
+        <tr>
+            <td class="budynki"><div id="progress7"><div id="bar7"></div></div><input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek7,this.id)' id="7">
+                </td>
+            <td class="budynki"><div id="progress8"><div id="bar8"></div></div><input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek8,this.id)' id="8">
+                </td>
+            <td class="budynki"><div id="progress9"><div id="bar9"></div></div><input type='image' src="files/plus.png" onclick='wybudujBudynek(budynek9,this.id)' id="9">
+                </td>
+            <td class="infor"><p id="surowiecinfo">Surowiec:</p><p id="surowiec"></p><img src="files/drewno.png" id="surowieczdj"></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                  </div>
+            </td>
+            <td>
+                <input type="image" src='files/klodka.png' onclick="nowylvl()" id="nowylvl">
+            </td>
+        </tr>
+    </table>
+    <div id="nav">
+        <input type="image" src="files/pauza.png" onclick="pauza2()" id="pauza2">
+        <input type="image" src="files/tempo1.png" onclick="tempo1()" value=">" id="tempo1">
+        <input type="image" src="files/tempo2.png" onclick="tempo2()" value=">>" id="tempo2">
+        <input type="image" src="files/tempo3.png" onclick="tempo3()"value='>>>' id="tempo3">
+        <input type="image" src="files/muzykaoff.png" onclick="wycisz()" value='>>>' id="wycisz">
+    </div>
+
+    <audio id="cash">
+        <source src="files/cash-register-purchase-87313.mp3" type="audio/ogg">
+    </audio>
+    <audio id="lvlaudio">
+        <source src="files/short-success-sound-glockenspiel-treasure-video-game-6346.mp3" type="audio/ogg">
+    </audio>
+    <audio id="wyplata">
+        <source src="files/collectcoin-6075.mp3" type="audio/ogg">
+    </audio>
+    <audio id="click">
+        <source src="files/click.wav" type="audio/ogg">
+    </audio>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

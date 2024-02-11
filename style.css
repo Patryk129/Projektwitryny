@@ -1,0 +1,174 @@
+body{
+    background-image: linear-gradient(to right, grey , white);
+    font-family: 'Courier New', monospace;
+}
+
+table{
+    border: 2px solid;
+    border-radius: 25px;
+    width: 75%;
+    height: 75%;
+    margin: 10svh auto;
+}
+
+td{
+    border-radius: 25px;
+    width: 200px;
+    height: 150px;
+}
+
+.budynki{
+    border: 1px solid;
+}
+
+.infor{
+    border: 1px solid;
+}
+
+#surowiecinfo{
+    text-align: center;
+}
+
+#budynek1,#budynek2,#budynek3,#budynek4,#budynek5,#budynek6,#budynek7,#budynek8,#budynek9{
+    width: 50%;
+    margin-left: 25%;
+    align-self: center;
+    
+}
+
+#info{
+    margin: auto;
+}
+
+#myProgress {
+width: 100%;
+background-color: #ddd;
+border: 1px;
+border: solid;
+border-radius: 10px;
+}
+
+#myBar {
+width: 1%;
+height: 30px;
+background: linear-gradient(-45deg,#e23703, #c40c52, #09a7e0, #08e9b4);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+border-radius: 10px;
+}
+
+#poziom{
+    margin: 0%;
+    text-align: center;
+    font-size: 100px;
+}
+
+input[type = image]{
+    margin-left: 35%;
+    cursor: pointer;
+    width: 30%;
+}
+
+p{
+    text-align: center;
+}
+
+#progress1, #progress2,#progress3,#progress4,#progress5,#progress6,#progress7,#progress8,#progress9 {
+    margin-left: 12.5%;
+    width: 75%;
+    background-color: #ddd;
+    margin-bottom: 5px;
+    border: 1px;
+    border: solid;
+    border-radius: 10px;
+}
+
+#bar1,#bar2,#bar3,#bar4,#bar5,#bar6,#bar7,#bar8,#bar9 {
+    width: 1%;
+    height: 20px;
+    background-color: yellowgreen;
+    border: solid;
+    border-radius: 10px;
+}
+
+#nav {
+    height: 10svh;
+    top: 0;
+    right: 12.5%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+#pauza2
+{
+    margin: 0;
+    bottom: 910px;
+    left: 1630px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#tempo1
+{
+    margin: 0;
+    bottom: 910px;
+    left: 1680px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#tempo2{
+    margin: 0;
+    left: 1730px;
+    bottom: 910px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#tempo3{
+    margin: 0;
+    left: 1775px;
+    bottom: 910px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#wycisz{
+    margin: 0;
+    left: 1825px;
+    bottom: 910px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#cenainfo{
+    text-align: center;
+}
+
+#surowieczdj{
+    width: 40px;
+    width: 20%;
+    margin-left: 40%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
